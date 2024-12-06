@@ -11,7 +11,7 @@ This repository contains a Python script to silently download, install, and conf
 ## **Requirements**
 - **Python 3.x** installed on your system.
 - Administrator privileges to install software and manage processes.
-- `msiexec` (built-in tool for installing MSI packages on Windows).
+- `msiexec` (It comes by default in Windows).
 
 ## **Usage**
 1. Clone this repository or download the `install_warp.py` script:
