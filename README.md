@@ -19,4 +19,4 @@ This repository contains a Python script to silently download, install, and conf
    git clone https://github.com/xelegram/Cloudflare-Warp-Silent-install.git
    cd warp-silent-install
 
-https://github.com/xelegram/Cloudflare-Warp-Silent-install.git
+
