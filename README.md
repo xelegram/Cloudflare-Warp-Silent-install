@@ -18,4 +18,4 @@ This repository contains a Python script to silently download, install, and conf
    ```bash
    git clone https://github.com/<your-username>/warp-silent-install.git
    cd warp-silent-install
-bash``` 
+
