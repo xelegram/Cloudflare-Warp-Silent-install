@@ -20,3 +20,46 @@ This repository contains a Python script to silently download, install, and conf
    cd warp-silent-install
 
 
+2. Install Warp silently
+   ```bash
+   python3 install_warp.py
+
+## **Silent Commands (Optional)**
+1. Register the device
+   ```bash
+      python warpcli.py -c register
+2. Connect device to warp network
+   ```bash
+   python warpcli.py -c connect
+
+Others
+   ```bash
+   python warpcli.py -c disconnect
+```
+Other commands
+Operation Mode Configuration
+   warpcli.py -c set-mode warp
+
+Switch to WARP+ mode (if you have a premium account).
+   warpcli.py -c set-mode warp+doh
+
+Configure WARP to use DNS over HTTPS (DoH) exclusively.
+   warpcli.py -c set-mode doh
+
+Switch to DNS over HTTPS only mode, without VPN.
+   warpcli.py -c get-mode
+
+Show the current WARP mode.
+5. Connection Configuration
+   warpcli.py -c enable-proxy
+
+Enable proxy mode so other applications can use WARP through a proxy.
+   warpcli.py -c disable-proxy
+
+Disable proxy mode.
+   warpcli.py -c enable-dns-log
+
+Enable DNS query logging for debugging.
+   warpcli.py -c disable-dns-log
+
+Disable DNS query logging.
