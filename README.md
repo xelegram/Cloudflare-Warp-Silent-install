@@ -1,4 +1,4 @@
-# **Warp Silent Install**
+# **Warp Silent Install on Windows**
 
 This repository contains a Python script to silently download, install, and configure the **Cloudflare WARP** client on Windows systems.
 
